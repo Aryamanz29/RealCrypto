@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block title %}
     Main Page
 {% endblock title %}
@@ -15,25 +15,11 @@
                 <th scope="col">Price (USD)</th>
             </tr>
         </thead>
-        <tbody>
-            {% if data %}
-                {% for obj in data  %}
-                    <tr>
-                        <td><img src="{{obj.image}}" alt="crpto-image" height="70"></td>
-                        <td class="align-middle">{{obj.name}}</td>
-                        <td class="align-middle">{{obj.market_cap_rank}}</td>
-                        <td class="align-middle">{{obj.market_cap}}</td>
-                        <td class="align-middle">{{obj.current_price}}</td>
-
-                    </tr>
-                {% endfor %}
-            {% else %}
-                <h3>Sorry Nothing Here...</h3>
-            {% endif %}
+        <tbody id="positions-table">
         </tbody>
     </table>
 {% endblock content %}
 
 {% block scripts %}
-    
+    <script src="{% static 'js/main.js' %}"></script>
 {% endblock scripts %}
