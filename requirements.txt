@@ -6,7 +6,7 @@ attrs==21.2.0
 autobahn==21.11.1
 Automat==20.2.0
 billiard==3.6.4.0
-celery==4.4.7
+celery==5.2.2
 certifi==2021.10.8
 cffi==1.15.0
 channels==3.0.4
@@ -54,7 +54,7 @@ attrs==21.2.0
 autobahn==21.11.1
 Automat==20.2.0
 billiard==3.6.4.0
-celery==4.4.7
+celery==5.2.2
 certifi==2021.10.8
 cffi==1.15.0
 channels==3.0.4
