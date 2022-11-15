@@ -20,7 +20,7 @@ constantly==15.1.0
 cryptography==36.0.0
 daphne==3.0.2
 Deprecated==1.2.13
-Django==3.2.15
+Django==3.2.16
 hiredis==2.0.0
 hyperlink==21.0.0
 idna==3.3
@@ -68,7 +68,7 @@ constantly==15.1.0
 cryptography==36.0.0
 daphne==3.0.2
 Deprecated==1.2.13
-Django==3.2.15
+Django==3.2.16
 hiredis==2.0.0
 hyperlink==21.0.0
 idna==3.3
